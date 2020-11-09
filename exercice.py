@@ -12,12 +12,12 @@ def linear_values() -> np.ndarray:
 
 
 def coordinate_conversion(cartesian_coordinates: np.ndarray) -> np.ndarray:
-    
+
     return np.array([])
 
 
 def find_closest_index(values: np.ndarray, number: float) -> int:
-    return 0
+    return sorted([(i, values[i]) for i in range(values.size)], key= lambda element : abs(element[1] - number))[0][0]
 
 
 if __name__ == '__main__':
