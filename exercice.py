@@ -8,7 +8,7 @@ import numpy as np
 
 # TODO: Définissez vos fonctions ici (il en manque quelques unes)
 def linear_values() -> np.ndarray:
-    
+    np.linspace()
     return np.array([])
 
 
