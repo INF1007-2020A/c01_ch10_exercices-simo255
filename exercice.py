@@ -8,8 +8,7 @@ import numpy as np
 
 # TODO: Définissez vos fonctions ici (il en manque quelques unes)
 def linear_values() -> np.ndarray:
-    tableau = np.linspace(-1.3, 2.5, 64 )
-    return np.array([])
+    return np.array([np.linspace(-1.3, 2.5, 64 )])
 
 
 def coordinate_conversion(cartesian_coordinates: np.ndarray) -> np.ndarray:
