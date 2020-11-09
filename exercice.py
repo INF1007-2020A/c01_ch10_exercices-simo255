@@ -18,7 +18,7 @@ def coordinate_conversion(cartesian_coordinates: np.ndarray) -> np.ndarray:
 
 def find_closest_index(values: np.ndarray, number: float) -> int:
     return sorted([(i, values[i]) for i in range(values.size)], key= lambda element : abs(element[1] - number))[0][0]
-
+    return np.abs
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
