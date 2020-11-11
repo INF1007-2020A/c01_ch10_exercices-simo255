@@ -33,7 +33,7 @@ def integrale(x):
 
     return sp.integrate.quad(np.exp(-x**2), np.ninf, np.inf)[0]
 
-
+def showintegr
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
