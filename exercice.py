@@ -30,7 +30,7 @@ def courbe():
     return plt.plot(x,y)
 
 def integrale():
-
+    
 
 
 if __name__ == '__main__':
