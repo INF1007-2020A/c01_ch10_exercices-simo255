@@ -27,7 +27,6 @@ def courbe():
     x = np.linspace(-1, 1, 250)
     
     plt.plot([50,100,150,200], [1,2,3,4])
-
     plt.show()
 
 
