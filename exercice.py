@@ -21,7 +21,7 @@ def find_closest_index_np(values: np.ndarray, number: float) -> int:
     return np.abs(values - number).argmin()
 
 
-
+def 
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
