@@ -20,6 +20,9 @@ def find_closest_index_np(values: np.ndarray, number: float) -> int:
     return sorted([(i, values[i]) for i in range(values.size)], key= lambda element : abs(element[1] - number))[0][0]
     return np.abs(values - number).argmin()
 
+
+
+
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
 
