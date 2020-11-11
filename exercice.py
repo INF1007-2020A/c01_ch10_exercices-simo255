@@ -40,5 +40,5 @@ def showintegral(x):
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
-
+    courbe()
     pass
