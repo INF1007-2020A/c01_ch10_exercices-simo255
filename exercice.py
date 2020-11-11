@@ -32,10 +32,10 @@ def courbe():
 
 def fct(x):
   return np.exp(-x**2)
+
+  
 def integrale():
   return integrate.quad(fct, np.NINF, np.inf)[0]
-
-def showintegral(x):
     
 
 if __name__ == '__main__':
