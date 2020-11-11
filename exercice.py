@@ -27,7 +27,7 @@ def courbe():
     x = np.linspace(-1, 1, 250)
     y = x**2 * np.sin(1/x**2)
 
-    return plt.plot(x,y)
+     plt.plot(x,y)
 
 def integrale(x):
 
