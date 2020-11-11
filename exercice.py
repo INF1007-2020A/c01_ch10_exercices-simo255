@@ -5,7 +5,7 @@
 # TODO: Importez vos modules ici
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy import int
+from scipy import integrate
 
 
 # TODO: Définissez vos fonctions ici (il en manque quelques unes)
