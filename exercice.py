@@ -28,7 +28,8 @@ def courbe():
 
     return plt.plot(x,y)
 
-def
+def integrale():
+    
 
 
 if __name__ == '__main__':
