@@ -27,7 +27,7 @@ def courbe():
     y = x**2 * np.sin⁡(1∕(x**2))+x
     plt.plot(x, y)
     plt.show()
-
+    return 
 
 
 
