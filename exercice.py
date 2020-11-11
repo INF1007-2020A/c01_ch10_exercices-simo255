@@ -26,7 +26,7 @@ def courbe():
     y = 𝑥**2 * sin⁡(1∕𝑥**2 )+𝑥
     x = np.linspace(-1, 1, 250)
     
-    plt.plot([x, y)
+    plt.plot(x, y)
     plt.show()
 
 
