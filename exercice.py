@@ -31,7 +31,7 @@ def courbe():
 
 def integrale(x):
 
-    return sp.integrate.quad(np.exp(-x**2), np.ninf, np.inf)
+    return sp.integrate.quad(np.exp(-x**2), np.ninf, np.inf)[0]
 
 
 if __name__ == '__main__':
