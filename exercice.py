@@ -29,8 +29,8 @@ def courbe():
 
     return plt.plot(x,y)
 
-def integrale():
-    
+def integrale(x):
+
     return sp.integrate.quad(np.exp(-x**2), np.ninf, np.inf)
 
 
