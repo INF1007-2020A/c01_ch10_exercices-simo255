@@ -26,8 +26,7 @@ def find_closest_index_np(values: np.ndarray, number: float) -> int:
 def courbe():
     x = np.linspace(-1, 1, 250)
     y = x**2 * np.sin(1/x**2)
-    plt.plot
-     plt.plot(x,y)
+    plt.plot(x,y)
 
 def integrale(x):
 
