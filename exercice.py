@@ -24,7 +24,7 @@ def find_closest_index_np(values: np.ndarray, number: float) -> int:
 
 def courbe():
     x = np.linspace(-1, 1, 250)
-    y = x**2 * sin⁡(1∕x**2 )+x
+    y = x**2 * mathsin⁡(1∕x**2 )+x
     plt.plot(x, y)
     plt.show()
 
