@@ -23,11 +23,12 @@ def find_closest_index_np(values: np.ndarray, number: float) -> int:
 
 
 def courbe():
-    x, y  = np.linspace(-1, 1, 250)
+    x = np.linspace(-1, 1, 250)
     y = x**2 * np.sin⁡(1∕(x**2))+x
 
     return plt.plot(x,y)
 
+def
 
 
 if __name__ == '__main__':
