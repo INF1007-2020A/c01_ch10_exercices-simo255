@@ -29,6 +29,7 @@ def courbe():
     plt.plot(x,y)
     plt.show
 
+
 def fct(x):
   return np.exp(-x**2)
 def integrale():
