@@ -5,6 +5,7 @@
 # TODO: Importez vos modules ici
 import numpy as np
 import matplotlib.pyplot as plt
+import scipy 
 
 
 # TODO: Définissez vos fonctions ici (il en manque quelques unes)
@@ -29,7 +30,7 @@ def courbe():
     return plt.plot(x,y)
 
 def integrale():
-    
+
 
 
 if __name__ == '__main__':
