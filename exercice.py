@@ -29,9 +29,11 @@ def courbe():
     plt.plot(x,y)
     plt.show
 
-def integrale(x):
-
-    return sp.integrate.quad(np.exp(-x**2), np.ninf, np.inf)[0]
+def fct(x):
+  return np.exp(-x**2)
+def integrale():
+  print(integrate.quad(fct, np.NINF, np.inf)[0])
+  return integrate.quad(fct, np.NINF, np.inf)[0]
 
 def showintegral(x):
     
