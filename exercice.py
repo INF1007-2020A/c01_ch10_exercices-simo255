@@ -23,8 +23,8 @@ def find_closest_index_np(values: np.ndarray, number: float) -> int:
 
 
 def courbe():
-
     
+
 
 
 
