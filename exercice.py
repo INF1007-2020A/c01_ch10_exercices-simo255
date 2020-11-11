@@ -4,6 +4,7 @@
 
 # TODO: Importez vos modules ici
 import numpy as np
+import
 
 
 # TODO: Définissez vos fonctions ici (il en manque quelques unes)
@@ -22,7 +23,7 @@ def find_closest_index_np(values: np.ndarray, number: float) -> int:
 
 
 def courbe():
-    
+
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
