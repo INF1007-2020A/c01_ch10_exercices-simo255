@@ -30,6 +30,7 @@ def courbe():
     return plt.plot(x,y)
 
 def integrale():
+    y = 
     return sp.integrate.quad()
 
 
