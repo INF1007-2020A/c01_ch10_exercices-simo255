@@ -24,6 +24,9 @@ def find_closest_index_np(values: np.ndarray, number: float) -> int:
 
 def courbe():
 
+    
+
+
 
 if __name__ == '__main__':
     # TODO: Appelez vos fonctions ici
